@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="1.css">
+    <title>Yummy & Delicious</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo" style="font-family: cursive;">Welcome to Yummy & Delicious</div>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+        <div class="d3" id="home">
+            <h1 class="p">Yummy & Delicious</h1><br>
+            <p class="u">We are a passionate team dedicated to serving you the best culinary experience. Delight your taste buds with our dishes. Experience the art of fine dining.  </p>
+            <button class="u1"  id="explorenow" >Explore Now</button>  
+        </div>
+    
+    
+    <section id="menu" class="menu">
+        <h2 class="meow">Our Exquisite Menu</h2>
+        <div class="menu-item">
+            <div class="aa">
+            <img src="E:\Internship\Exp 1\biriyani.jpeg" alt="Dish 1">
+            <h3>All varid contential flavoured regional Biriyanis</h3>
+            </div>
+            <div class="aa1">
+            <img src="E:\Internship\Exp 1\starterss.jpeg" alt="Dish 1">
+            <h3>Varid kinds of Veg & Non Veg starters</h3>
+            </div>
+            <div class="aa2">
+            <img src="E:\Internship\Exp 1\mandi.jpeg" alt="Dish 1">
+            <h3>Veg & Non Veg Mandi's are available</h3>
+            </div>
+        </div>
+        <div class="menu-item">
+            <div class="aa">
+            <img src="E:\Internship\Exp 1\desert1.jpeg" alt="Dish 1">
+            <h3>Delicious Deserts & deserted ice food</h3>
+            </div>
+            <div class="aa1">
+            <img src="E:\Internship\Exp 1\soups.jpeg" alt="Dish 1">
+            <h3>Veg and Non Veg Soups</h3>
+            </div>
+            <div class="aa2">
+            <img src="E:\Internship\Exp 1\drinks.jpeg" alt="Dish 1">
+            <h3>Seasonal Flavored Milkshakes and Mocktailes</h3>
+            </div>
+        </div>
+    </section>
+    
+      <section id="about">
+      <div class="about1" > 
+        <center> <h2 class="meow1">About Us </h2></center>
+      </div>
+        <div class="about2">
+            <div class="about3">
+                <img src="E:\Internship\Exp 1\aboutus.jpeg" class="aboutimg">
+            </div>
+            <div class="about4" >
+                <p style="font-size: 25px;font-family: cursive;">I love to travel and are constantly taking pictures of varid kinds of foods, I'm madly in love with food so i opened this restaruant in 2013, with all the trusted customers we are what we are, we are very happy and delighted to have customers like you, we planing on expanding our branches with you all and we also plan for yours special occasions and events in your life. All the products we use for cooking is directly imported from farmers and farms. Thanks for your trust on us we will provide best services to you & we are very passionate about cooking we love cooking and serving to our customers we born to cook the food as per ur taste.  </p>
+            </div>
+        </div>
+    </section>
+            
+    <section id="contact" class="contact">
+        <h2>Get in Touch</h2>
+        <p>Have questions or want to make a reservation? Reach out to us at <a href="mailto:info@yummy&delicious.com">info@yummy&delicious.com</a></p>
+    </section>
+    
+    <footer>
+        <p>&copy; 2013 Yummy & Delicious. All rights reserved.</p>
+    </footer>
+    <script>
+  // Get a reference to the button and the about section
+  const exploreButton = document.getElementById("explorenow");
+  const aboutSection = document.getElementById("menu");
+  
+  // Add a click event listener to the button
+  exploreButton.addEventListener("click", function() {
+    // Scroll to the about section when the button is clicked
+    aboutSection.scrollIntoView({ behavior: "smooth" });
+  });
+</script>
+</body>
+</html>
